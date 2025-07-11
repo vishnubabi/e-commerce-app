@@ -1,0 +1,40 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual Environment ===
+env/
+.venv/
+ENV/
+venv.bak/
+env.bak/
+
+# === Django Specific ===
+*.log
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# === Static & Media Files ===
+staticfiles/
+media/
+*.collectstatic
+
+# === VS Code / IDEs ===
+.vscode/
+.idea/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Git Backup Conflicts ===
+*.orig
+
+# === Migrations (optional) ===
+# Comment out if you want to track migrations manually
+*/migrations/*.py
+*/migrations/__pycache__/
